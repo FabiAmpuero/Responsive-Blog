@@ -211,6 +211,14 @@ footer {
         display: inline-block;
         float: right;
     }
+    .col-1, .col-2, .col-3, .left, .right {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .right {
+        display: none;
+    }
 }
 
 
