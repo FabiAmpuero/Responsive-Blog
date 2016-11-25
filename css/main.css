@@ -73,25 +73,27 @@ header {
     height: 295px;
     position: relative;
 }
+.hero .contenedor {
+    width: 100%;
+    display: table;
+}
 .hero .texto {
-    background: rgba(38, 38, 38, 0.95);
-    width: 430px;
-    height: 150px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
 }
 .hero h1 {
     color: #f0b74a;
+    margin: 0 130px;
     font-size: 60px;
     padding-top: 30px;
+    background: rgba(38, 38, 38, 0.95);
 }
 .hero .texto p {
+    margin: 0 130px;
     padding: 14px 0;
+    background: rgba(38, 38, 38, 0.95);
 }
 /*------------------------------------------------------------------ CONTENIDO ----*/
 .contenido {
@@ -188,7 +190,18 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-    
+    .list-menu {
+        display: none;
+    }
+    .container {
+        width: 95%;
+    }
+    .hero .texto {
+        width: 92%;
+    }
+    .hero .texto p, .hero h1 {
+        margin: 0 30px;
+    }
 }
 
 
