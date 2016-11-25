@@ -82,7 +82,6 @@ header .icon-menu {
     display: table;
 }
 .hero .texto {
-    
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -173,6 +172,7 @@ header .icon-menu {
 .iconos {
     background: #1d1a1a;
     padding: 0 10px;
+    padding-bottom: 20px;
 }
 i {
     border-radius: 100%;
